@@ -156,8 +156,7 @@ const store = createStore({
           },
         ],
       },
-    ]
-   },
+    ],
   },
 
   getters: {},
