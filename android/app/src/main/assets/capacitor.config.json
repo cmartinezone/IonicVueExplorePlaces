@@ -1,6 +1,6 @@
 {
   "appId": "io.ionic.starter",
-  "appName": "exploreplaces",
+  "appName": "ionic-blank",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "dist",
