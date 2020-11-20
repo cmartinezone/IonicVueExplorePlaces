@@ -1,5 +1,5 @@
 {
-  "name": "ionic-blank",
+  "name": "exploreplaces",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,23 +10,24 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@capacitor/android": "^2.4.2",
     "@capacitor/core": "2.4.2",
+    "@ionic/cli": "^6.12.2",
+    "@ionic/pwa-elements": "^3.0.1",
     "@ionic/vue": "^5.4.0",
     "@ionic/vue-router": "^5.4.0",
     "core-js": "^3.6.5",
+    "global": "^4.4.0",
     "vue": "^3.0.0-0",
-    "vue-router": "^4.0.0-0"
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-rc.1"
   },
   "devDependencies": {
     "@capacitor/cli": "2.4.2",
-    "@types/jest": "^24.0.19",
-    "@typescript-eslint/eslint-plugin": "^2.33.0",
-    "@typescript-eslint/parser": "^2.33.0",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-e2e-cypress": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-plugin-typescript": "~4.5.0",
     "@vue/cli-plugin-unit-jest": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0-0",
@@ -34,7 +35,6 @@
     "@vue/test-utils": "^2.0.0-0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
-    "typescript": "~3.9.3",
     "vue-jest": "^5.0.0-0"
   },
   "description": "An Ionic project"
